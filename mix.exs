@@ -42,7 +42,7 @@ defmodule Sniff.Mixfile do
      version: "0.1.4",
      elixir: "~> 1.3",
      compilers: [:nif | Mix.compilers],
-     build_embedded: Mix.env == :prod,
+     build_embedded: false,
      start_permanent: Mix.env == :prod,
      aliases: aliases(),
      description: description(),
